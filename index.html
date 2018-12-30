@@ -152,27 +152,31 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-星期五" class="article article-type-post  article-index" itemscope="" itemprop="blogPost">
+    <article id="post-Python导包时候出现的几个问题" class="article article-type-post  article-index" itemscope="" itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2018/12/29/星期五/">星期五</a>
+      <a class="article-title" href="/2018/12/30/Python导包时候出现的几个问题/">Python导包时候出现的几个问题</a>
     </h1>
   
 
         
-        <a href="/2018/12/29/星期五/" class="archive-article-date">
-  	<time datetime="2018-12-29T09:41:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-12-29</time>
+        <a href="/2018/12/30/Python导包时候出现的几个问题/" class="archive-article-date">
+  	<time datetime="2018-12-30T00:45:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-12-30</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h5 id="1、工厂方法"><a href="#1、工厂方法" class="headerlink" title="1、工厂方法"></a>1、工厂方法</h5><p>​    Python的工厂方法就是根据对应参数，产出不同的对象，解决了类或者其他返回对象单一，可以由提供的原材料（参数）产出对应的对象的模式</p>
+<h5 id="2、懒加载"><a href="#2、懒加载" class="headerlink" title="2、懒加载"></a>2、懒加载</h5><p>​    创建db数据库对象时，如果先不用的话，并且用的时候再对象里面，为了防止用的时候出现None类型，可以现在先外面声明全局变量为None,等到用的时候再修改全局变量</p>
+<h5 id="3、延迟导入。"><a href="#3、延迟导入。" class="headerlink" title="3、延迟导入。"></a>3、延迟导入。</h5><p>​    可以用来解决调包时候的循环导入！说白了，就是你导入包，不要为了好看整齐一开始就导入，哪里用就在哪里导入</p>
+<h5 id="4、相对路径的真正相对位置"><a href="#4、相对路径的真正相对位置" class="headerlink" title="4、相对路径的真正相对位置"></a>4、相对路径的真正相对位置</h5><p>有时候导包时候定义的<strong>相对路径</strong>，不仅仅是针对当前文件，而是你真正这个位置被调用执行的时候的文件的位置的相对路径！！因为Python是解释性语言，代码从上到下执行的</p>
+
       
 
       
@@ -184,7 +188,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2018/12/29/星期五/">展开全文 >></a>
+          <a class="article-more-a" href="/2018/12/30/Python导包时候出现的几个问题/">展开全文 >></a>
         </p>
       
 
